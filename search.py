@@ -18,7 +18,7 @@ app = FastAPI()
 
 class SearchRequest(BaseModel):
     query: str
-    num_results: int = 5
+    num_results: int = 10
 
 @app.post("/search/")
 async def search_handler(request: SearchRequest):
