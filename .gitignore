@@ -2,7 +2,7 @@
 .env
 
 # Ignore local test script
-search.py
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
